@@ -1,0 +1,11 @@
+@use 'reset' as *;
+@use 'vars' as *;
+@import '@ng-select/ng-select/themes/material.theme.css';
+
+.container {
+  max-width: 1440px;
+  min-width: 280px;
+  padding: 0 16px;
+  width: 100%;
+  margin: 0 auto;
+}

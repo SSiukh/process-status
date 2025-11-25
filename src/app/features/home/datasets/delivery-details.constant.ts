@@ -1,0 +1,53 @@
+export const Delivery_Details = {
+  created: {
+    code: '0001',
+    type: 'up',
+    info: 'Створено накладну',
+    ttn: '05012345670000',
+  },
+  sent: {
+    code: '0101',
+    type: 'up',
+    info: 'Надходження на сортувальний центр',
+    ttn: '05012345670000',
+    up_track_id: '20700',
+    track_url_ua: 'https://www.google.com/',
+  },
+  delivered: {
+    code: '0101',
+    type: 'up',
+    info: 'Відправлення у точці видачі/доставки',
+    ttn: '05012345670000',
+    up_track_id: '21700',
+    track_url_ua: 'https://www.google.com/',
+  },
+  issued: {
+    code: '0101',
+    type: 'up',
+    info: 'Відправлення вручено: особисто',
+    ttn: '05012345670000',
+    up_track_id: '41000',
+    track_url_ua: 'https://www.google.com/',
+  },
+  returned: {
+    code: '0101',
+    type: 'up',
+    info: 'Повернення',
+    ttn: '05012345670000',
+    up_track_id: '31200',
+    track_url_ua: 'https://www.google.com/',
+    event_reason_id: 10,
+  },
+  resend: {
+    code: '0102',
+    type: 'up',
+    info: 'Доступна повторна доставка',
+    ttn: '05012345670000',
+  },
+  destroyed: {
+    code: '0201',
+    type: 'up',
+    info: 'Витяг знищено',
+    ttn: '05012345670000',
+  },
+};

@@ -1,0 +1,36 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
+  <div class="form__group">
+    <label class="form__label" for="type">Type:</label>
+    <ng-select
+      id="type"
+      formControlName="type"
+      [items]="typeOptions"
+      bindLabel="label"
+      bindValue="value"
+      placeholder="Тип статусу"
+      class="form__select"
+    >
+    </ng-select>
+  </div>
+
+  <div class="form__group">
+    <label class="form__label" for="requestId">ID запиту:</label>
+    <input id="requestId" type="text" formControlName="requestId" class="form__input" />
+  </div>
+
+  <div class="form__group">
+    <label class="form__label" for="status">Статус:</label>
+    <ng-select
+      id="status"
+      formControlName="status"
+      [items]="statusOptions"
+      bindLabel="label"
+      bindValue="value"
+      placeholder="Select status..."
+      class="form__select"
+    >
+    </ng-select>
+  </div>
+
+  <button type="submit" [disabled]="form.invalid" class="form__button">Згенерувати</button>
+</form>

@@ -1,0 +1,30 @@
+// COLORS
+$color-black: #000000;
+$color-white: #ffffff;
+$color-yellow-primary: #ffcd4e;
+$color-yellow-secondary: #fffaf4;
+$color-gray: #f4f4f4;
+
+// FONT
+$font-base: 'e-Ukraine', Helvetica, sans-serif;
+$font-head: 'e-Ukraine Head', Helvetica, sans-serif;
+$font-size-base: 14px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$font-size-xxl: 56px;
+
+// BREAKPOINTS
+$breakpoint-sm: 520px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 950px;
+$breakpoint-xl: 1100px;
+$breakpoint-xxl: 1200px;
+$breakpoint-huge: 1300px;
+$breakpoints: (
+  sm: $breakpoint-sm,
+  md: $breakpoint-md,
+  lg: $breakpoint-lg,
+  xl: $breakpoint-xl,
+  xxl: $breakpoint-xxl,
+  huge: $breakpoint-huge,
+);
