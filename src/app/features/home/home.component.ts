@@ -27,7 +27,7 @@ export class HomeComponent {
   setCertificateRequest(requestId: string, statusId: string) {
     this.jsonCode = {
       requestId,
-      statusId,
+      statusId: +statusId,
     };
   }
 
