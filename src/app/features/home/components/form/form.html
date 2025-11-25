@@ -1,13 +1,13 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
   <div class="form__group">
-    <label class="form__label" for="type">Type:</label>
+    <label class="form__label" for="type">Тип:</label>
     <ng-select
       id="type"
       formControlName="type"
       [items]="typeOptions"
       bindLabel="label"
       bindValue="value"
-      placeholder="Тип статусу"
+      placeholder="Оберіть тип статусу"
       class="form__select"
     >
     </ng-select>
@@ -26,7 +26,7 @@
       [items]="statusOptions"
       bindLabel="label"
       bindValue="value"
-      placeholder="Select status..."
+      placeholder="Оберіть статус"
       class="form__select"
     >
     </ng-select>
